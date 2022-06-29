@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+        <title>Sending Action</title>
+
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html">HOME</a>    
+                </div>
+                <div class="items">
+                    <a href="users.html">All Custmer</a>
+                    <a href="history.html">Transfer Record</a>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="container1">
+                <div class="getInfo">
+                    <form name="form1" action="history.html" method="post">
+                        <label>Sender</label> <br>
+                        <input class="form-control" id="senderInp" type="text" name="sender"     required> <br>
+
+                        <label>Receiver</label> <br>
+                        <input class="form-control" id="receiverInp" type="text" name="receiver" required> <br>
+                        
+                        <label>Amount</label> <br>
+                        <input class="form-control" id="amountInp" type="number" name="amount" required> <br>                        
+                        
+                    </form>
+                    
+                    <button onclick="transferMoney()" class="btn">Transfer Money</button>
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'segoe ui light';
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2 linear;
+}
+html
+{
+    font-size: 62.5%;
+}
+
+header .nav 
+{
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+.nav .logo
+{
+    font-size: 2.5rem;
+}
+.nav .logo a
+{
+    color: white;
+    margin-left: 2rem;
+}
+.nav .items
+{
+    font-size: 2rem;
+    margin-right: 100px;
+}
+.nav .items a
+{
+    margin-right: 30px ;
+    color: white;
+    font-weight: bolder;
+}
+
+.container
+{
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .Guide
+{
+    font-size: 3rem;
+    text-align: center;
+}
+.Guide h1
+{
+    margin-bottom: 5rem;
+    font-size: 6rem;
+}
+.Guide .btn1
+{
+    font-size: 2rem;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+.Guide .btn1 a
+{
+    color: white;
+}
+.container1
+{
+    height: 570px;
+    display: flex;
+}
+
+.container1 .getInfo
+{
+    width: 100%;
+    font-size: 3rem ;
+    padding: 10rem;
+}
+.container1 .getInfo input
+{
+    font-size: 2rem;
+    margin: 1rem 0rem;
+    width: 80%;
+    border-radius: 5px;
+    border: solid 1px #ced4da  ;
+    color: #495057;
+    padding: .5rem .4rem;
+}
+.container1 .getInfo label
+{
+    font-size: 2rem;
+}
+.getInfo input:focus
+{
+    outline: none;
+    box-shadow: 0 0 10px rgb(68 66 66);
+}
+.container1 .getInfo .btn
+{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    margin-top: 1rem;    
+    background-color: rgb(36, 126, 126);
+    border-radius: 5px;
+    border: none ;
+    color: white;
+    cursor: pointer;
+}
+.table
+{
+    font-size: 2rem;
+}
+.table thead
+{
+    font-weight :bolder ;
+    letter-spacing: .2rem;
+}
+
+.title
+{
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.title h1
+{
+    font-size:4rem ;
+    padding: 2rem;
+    font-weight: bolder;
+    letter-spacing: .5rem;    
+}
